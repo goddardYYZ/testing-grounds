@@ -17,6 +17,7 @@ def snow_fall(stdscr):
         snowflakes.append((y, x))
     
     while True:
+        height, width = stdscr.getmaxyx()  # Update terminal size dynamically
         stdscr.clear()
         new_snowflakes = []
         
@@ -34,7 +35,8 @@ def snow_fall(stdscr):
         
         # Draw snowflakes
         for y, x in snowflakes:
-            stdscr.addch(y, x, '*')
+            if 0 <= y < height and 0 <= x < width:
+                stdscr.addch(y, x, '*')
         
         stdscr.refresh()
         time.sleep(0.1)
