@@ -19,7 +19,8 @@ def snow_fall(stdscr):
         y = random.randint(0, height - 1)
         snowflakes.append((y, x))
     
-    while True:
+    running = True
+    while running:
         height, width = stdscr.getmaxyx()  # Update terminal size dynamically
         if height < 2 or width < 2:
             continue  # Skip frame if terminal is too small
@@ -68,7 +69,7 @@ def snow_fall(stdscr):
         # Check for user input
         key = stdscr.getch()
         if key == ord('q'):
-            break
+            running = False
         elif key == curses.KEY_UP:
             fall_speed = min(fall_speed + 0.02, 0.5)  # Slow down
         elif key == curses.KEY_DOWN:
