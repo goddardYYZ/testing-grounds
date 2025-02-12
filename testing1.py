@@ -18,25 +18,31 @@ def snow_fall(stdscr):
     
     while True:
         height, width = stdscr.getmaxyx()  # Update terminal size dynamically
+        if height < 2 or width < 2:
+            continue  # Skip frame if terminal is too small
+        
         stdscr.clear()
         new_snowflakes = []
         
         for y, x in snowflakes:
-            if y + 1 < height:
+            if 0 <= y < height - 1:
                 new_x = x + random.choice([-1, 0, 1])  # Slight drift
                 new_x = max(0, min(width - 1, new_x))  # Keep in bounds
                 new_snowflakes.append((y + 1, new_x))
             
         # Generate new snowflakes at the top
-        for _ in range(width // 20):
+        for _ in range(max(1, width // 20)):
             new_snowflakes.append((0, random.randint(0, width - 1)))
             
-        snowflakes = new_snowflakes
+        snowflakes = [sf for sf in new_snowflakes if 0 <= sf[0] < height and 0 <= sf[1] < width]
         
         # Draw snowflakes
         for y, x in snowflakes:
             if 0 <= y < height and 0 <= x < width:
-                stdscr.addch(y, x, '*')
+                try:
+                    stdscr.addch(y, x, '*')
+                except curses.error:
+                    pass  # Ignore drawing errors
         
         stdscr.refresh()
         time.sleep(0.1)
