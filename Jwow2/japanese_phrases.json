@@ -1,0 +1,189 @@
+[
+    {
+        "English": "good morning",
+        "Japanese": "おはようございます",
+        "Pronunciation": "oh-HAI-yohh goh-ZAI-mahs"
+    },
+    {
+        "English": "good afternoon",
+        "Japanese": "こんにちは",
+        "Pronunciation": "KOHN-nee-chee-wah"
+    },
+    {
+        "English": "good evening",
+        "Japanese": "こんばんは",
+        "Pronunciation": "KOHN-bahn-wah"
+    },
+    {
+        "English": "good night",
+        "Japanese": "おやすみなさい",
+        "Pronunciation": "oh-yah-soo-mee nah-sai"
+    },
+    {
+        "English": "bye",
+        "Japanese": "それじゃ",
+        "Pronunciation": "soh-reh jah"
+    },
+    {
+        "English": "excuse me / sorry",
+        "Japanese": "すみません",
+        "Pronunciation": "soo-mee-mah-sen"
+    },
+    {
+        "English": "please",
+        "Japanese": "お願いします",
+        "Pronunciation": "oh-neh-gai-shee-mahs"
+    },
+    {
+        "English": "thank you",
+        "Japanese": "どうも",
+        "Pronunciation": "dohh-moh"
+    },
+    {
+        "English": "thank you very much",
+        "Japanese": "ありがとうございます",
+        "Pronunciation": "ah-ree-gah-toh goh-zai-mahs"
+    },
+    {
+        "English": "yes",
+        "Japanese": "はい",
+        "Pronunciation": "hai"
+    },
+    {
+        "English": "no",
+        "Japanese": "いいえ",
+        "Pronunciation": "ee-eh"
+    },
+    {
+        "English": "I'm from [country]",
+        "Japanese": "[country]人です",
+        "Pronunciation": "[country] jin desu"
+    },
+    {
+        "English": "Is English ok?",
+        "Japanese": "英語は大丈夫ですか",
+        "Pronunciation": "eh-go wah dai-joh-boo desu ka"
+    },
+    {
+        "English": "I don't understand",
+        "Japanese": "わかりません",
+        "Pronunciation": "wah-kah-ree-mah-sen"
+    },
+    {
+        "English": "this",
+        "Japanese": "これ",
+        "Pronunciation": "koh-reh"
+    },
+    {
+        "English": "How much is this?",
+        "Japanese": "これはいくらですか",
+        "Pronunciation": "koh-reh wah ee-koo-rah desu ka"
+    },
+    {
+        "English": "Where is the bathroom?",
+        "Japanese": "トイレはどこですか",
+        "Pronunciation": "toh-ee-reh wah doh-koh desu ka"
+    },
+    {
+        "English": "I'm lost",
+        "Japanese": "道に迷いました",
+        "Pronunciation": "mee-chee nee mah-yo-ee-mah-shta"
+    },
+    {
+        "English": "Can you help me?",
+        "Japanese": "手伝ってくれますか",
+        "Pronunciation": "teh-tsu-da-tteh koo-reh-mahs ka"
+    },
+    {
+        "English": "I don't speak Japanese",
+        "Japanese": "日本語を話せません",
+        "Pronunciation": "nee-hon-go o hah-nah-seh-mah-sen"
+    },
+    {
+        "English": "Do you speak English?",
+        "Japanese": "英語を話せますか",
+        "Pronunciation": "eh-go o hah-nah-seh-mahs ka"
+    },
+    {
+        "English": "I don't know",
+        "Japanese": "知りません",
+        "Pronunciation": "shee-ree-mah-sen"
+    },
+    {
+        "English": "What is this?",
+        "Japanese": "これは何ですか",
+        "Pronunciation": "koh-reh wah nan desu ka"
+    },
+    {
+        "English": "How do you say this in Japanese?",
+        "Japanese": "これは日本語で何と言いますか",
+        "Pronunciation": "koh-reh wah nee-hon-go de nan to ee-mahs ka"
+    },
+    {
+        "English": "Can you speak more slowly?",
+        "Japanese": "もっとゆっくり話してくれますか",
+        "Pronunciation": "moht-toh yook-kuri hah-nah-shee-teh koo-reh-mahs ka"
+    },
+    {
+        "English": "I'm sorry",
+        "Japanese": "ごめんなさい",
+        "Pronunciation": "goh-men-nah-sai"
+    },
+    {
+        "English": "What time is it?",
+        "Japanese": "今何時ですか",
+        "Pronunciation": "ee-mah nan-ji desu ka"
+    },
+    {
+        "English": "Where is [place]?",
+        "Japanese": "[place]はどこですか",
+        "Pronunciation": "[place] wah doh-koh desu ka"
+    },
+    {
+        "English": "How do I get to [place]?",
+        "Japanese": "[place]へはどうやって行きますか",
+        "Pronunciation": "[place] eh wah doh-yah-tteh ee-kee-mahs ka"
+    },
+    {
+        "English": "Can I have the bill, please?",
+        "Japanese": "お会計をお願いします",
+        "Pronunciation": "oh-kai-kay o oh-neh-gai-shee-mahs"
+    },
+    {
+        "English": "Delicious!",
+        "Japanese": "おいしい",
+        "Pronunciation": "oh-ee-shee"
+    },
+    {
+        "English": "Cheers!",
+        "Japanese": "乾杯",
+        "Pronunciation": "kan-pai"
+    },
+    {
+        "English": "I'm allergic to [allergy]",
+        "Japanese": "[allergy]のアレルギーがあります",
+        "Pronunciation": "[allergy] no ah-reh-roo-gee gah ah-ree-mahs"
+    },
+    {
+        "English": "I need a doctor",
+        "Japanese": "医者が必要です",
+        "Pronunciation": "ee-sha gah hitsu-yoh desu"
+    },
+    {
+        "English": "Call the police",
+        "Japanese": "警察を呼んでください",
+        "Pronunciation": "kay-satsu o yohn-deh koo-dah-sai"
+    },
+    {
+        "English": "I need help",
+        "Japanese": "助けが必要です",
+        "Pronunciation": "tah-skeh gah hitsu-yoh desu"
+    },
+    {
+        "English": "I'm sick",
+        "Japanese": "病気です",
+        "Pronunciation": "byoh-kee desu"
+    },
+    {
+
+ 
