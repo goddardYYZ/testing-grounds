@@ -22,7 +22,7 @@ This script selects a random Japanese phrase from a provided JSON file and displ
 ## Usage
 Run the script using:
 ```sh
-python script.py
+python jwow.py
 ```
 
 ## Example Output
